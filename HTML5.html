@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html manifest="cmf.manifest">
+    <head>
+        <title>Offline Web Application</title>
+        <script>
+            function changeImage()
+            {
+                document.images["jsbutton"].src = "C:/Users/aidana.kubatova/Desktop/Senior/Mobile app dev/tutorial1/bishkek.jpg";
+                return true;
+            }
+            function changeImageMore()
+            {
+                document.images["jsbutton"].src = "C:/Users/aidana.kubatova/Desktop/Senior/Mobile app dev/tutorial1/naryn.jpg";
+                return true;
+            }
+        </script>
+    </head>
+    <body>
+        <img name="jsbutton" src="C:/Users/aidana.kubatova/Desktop/Senior/Mobile app dev/tutorial1/naryn.jpg" width = "25%" height="25%" border = "0">
+        <br> <input type=button onclick="changeImage()" value="Bishkek"></input/>
+        &nbsp; &nbsp; <input type=button onclick="changeImage()" value="Naryn"></input>
+    </body>   
+</html>
